@@ -1,11 +1,11 @@
 variable AWS_REGION {
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 variable AMIS {
   type = map
   default = {
-    us-east-2  = "ami-07efac79022b86107"
+    ap-south-1  = "ami-03f4878755434977f"
     us-east-1  = "ami-053b0d53c279acc90"
     ap-south-1 = "ami-009110a2bf8d7dd0a"
   }
@@ -56,15 +56,15 @@ variable VPC_NAME {
 }
 
 variable Zone1 {
-  default = "us-east-1a"
+  default = "ap-south-1a"
 }
 
 variable Zone2 {
-  default = "us-east-1b"
+  default = "ap-south-1b"
 }
 
 variable Zone3 {
-  default = "us-east-1c"
+  default = "ap-south-1c"
 }
 
 variable VpcCIDR {
